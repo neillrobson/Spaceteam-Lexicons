@@ -1,40 +1,33 @@
-#Spaceteam Lexicons
+# Spaceteam Lexicons
 
-A repository for various lexicons for the mobile game [Spaceteam](http://www.sleepingbeastgames.com/spaceteam/).
+> A repository for various lexicons for the mobile game [Spaceteam](http://www.sleepingbeastgames.com/spaceteam/).
 
-## Why a git repo?
+Current project is creating a custom lexicon for use at Pendo.
 
-There are a few reasons for me creating this, but the main one is collaboration. If I make something, and you want to change it, go ahead. If someone else does something and you want to change it, go head. Fork this repository, make your changes, then submit a pull request. 
+## Forked Repository
 
-## Adding your own lexicon
+Attribution for the original idea of a Git repo containing Spaceteam lexicons goes to [Stuart Thomson](https://github.com/s-thom). His [original repository](https://github.com/s-thom/Spaceteam-Lexicons) is now a public archive.
 
-You must have backed the Kickstarter at the Ensigneer level or higher in order to create lexicons for Spaceteam.
+## Adding your own lexicon to the game
 
-1. Log into the lexicogulator  
-  To do this, log into the [Admiral's Club Forum](http://spaceteamadmiralsclub.com/forum/), and click the Member's Area button (it should be yellow/gold). Scroll down, and there should be a button to take you to the Lexicogulator.
+You must know your member ID for the Admiral's Club. If you don't have an ID, contact the developer of Spaceteam.
 
-2. Click the New Lexicon button  
-  This should be a green button on the left side.
-  
-3. Make your lexicon public  
-  This way you get the keyword for your lexicon.
-  
-4. Fork this repository  
-  There are blank files in the `.blank` folder, and the originals are in `.default`.  
-  You can also find the defaults on the lexicogulator page itself.
-  
-5. Create a new folder with the name of your keyword.  
-  This is so it doesn't get confusing as to what lexicon goes with which keyword, and also helps prevent duplicate folder names.
-  
-6. Submit a pull request
+1. Log in to the lexicogulator
 
-7. Don't forget to apply your changes on the lexicogulator page  
-  Note: I am not responsible for other people's lexicons. If your favourite lexicon hasn't updated, don't blame me.
+   To do this, go to `https://lexicogulator.herokuapp.com/editor/:ID` where `:ID` is your Admiral's Club member ID.
 
-## Modifying Others' lexicons
+2. Click the New Lexicon button
 
-If you're going to make changes to someone else's lexicon, please @mention them in your pull request. If they say "yes" to your changes, then I'm happy to merge them into the master branch.
+   This should be a green button on the left side.
 
-## Custom Characters
+3. Copy the contents of each text file (from a directory in this repository) into the appropriate fields in the Lexicogulator.
 
-Feel free to include some character templates if it suits the theme of your lexicon. Make sure you have both normal and hand up templates.
+## Contributing
+
+- Each directory is named after the keyword given to public lexicons in the Lexicogulator. (There is no reason not to make the lexicon public, since the contents of the lexicon are hosted in a public repository.) Click the "make public" checkbox in the Lexicogulator to get the public keyword.
+
+- There are blank files in the `.blank` folder, and the originals are in `.default`. You can also find the defaults on the lexicogulator page itself.
+
+- Follow the standard Github fork/pull-request workflow.
+
+- There is no automation tying the contents of this repository to the Lexicogulator. Don't forget to apply any merged changes to the Lexicogulator page yourself.
