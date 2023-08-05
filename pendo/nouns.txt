@@ -1,0 +1,17 @@
+# One noun per line.
+
+Test
+Test Suite
+Kubernetes
+Slack
+Cloud Instance
+Emoji
+Pineapple
+Blob
+Story Points
+Reeses
+Constellation
+Appengine
+Forma
+Vue
+AngularJS

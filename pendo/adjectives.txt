@@ -1,0 +1,17 @@
+# One adjective per line.
+
+Failing
+Passing
+Pink
+Pank
+Stalled
+Running
+Ewt's
+Todd's
+Quarterly
+Annual
+Approved
+Rejected
+Expensed
+Legacy
+Product-led
